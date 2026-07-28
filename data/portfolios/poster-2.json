@@ -1,0 +1,20 @@
+{
+  "id": "poster-2",
+  "title": "NextGen Summit — Meta Ad Banner Set",
+  "categoryFilter": "poster",
+  "categoryID": "Digital Image & Poster",
+  "categoryEN": "Digital Image & Poster",
+  "year": "2026",
+  "images": [
+    "assets/images/poster_ad_creative.jpg",
+    "assets/images/poster_kv.jpg"
+  ],
+  "descID": "Set spanduk digital untuk promosi media sosial & Google Display Network dengan format adaptif multi-perangkat.",
+  "descEN": "Digital banner set for social media promotion & Google Display Network dengan format adaptif multi-perangkat.",
+  "metricVal1": "8",
+  "metricLbl1ID": "Format Iklan",
+  "metricLbl1EN": "Ad Formats",
+  "metricVal2": "CTR Tinggi",
+  "metricLbl2ID": "Visual Kreatif",
+  "metricLbl2EN": "Creative Visual"
+}

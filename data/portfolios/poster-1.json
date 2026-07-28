@@ -1,0 +1,21 @@
+{
+  "id": "poster-1",
+  "title": "TechVision 2026 — Key Visual Poster",
+  "categoryFilter": "poster",
+  "categoryID": "Digital Image & Poster",
+  "categoryEN": "Digital Image & Poster",
+  "year": "2026",
+  "images": [
+    "assets/images/poster_kv.jpg",
+    "assets/images/poster_ad_creative.jpg",
+    "assets/images/hero_banner.jpg"
+  ],
+  "descID": "Desain Key Visual (KV) utama & poster peluncuran event teknologi nasional. Termasuk banner cetak high-res & set iklan Meta Ads.",
+  "descEN": "Master Key Visual (KV) & promotional poster design for national tech event. Includes high-res print banner & Meta Ads campaign set.",
+  "metricVal1": "5",
+  "metricLbl1ID": "Varian Spanduk",
+  "metricLbl1EN": "Banner Variants",
+  "metricVal2": "Key Visual",
+  "metricLbl2ID": "Kreatif Utama",
+  "metricLbl2EN": "Master Creative"
+}

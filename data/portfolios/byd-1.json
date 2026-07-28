@@ -1,0 +1,23 @@
+{
+  "id": "byd-1",
+  "title": "BYD Kota — Campaign BYD M6 DM",
+  "categoryFilter": "smm",
+  "categoryID": "Social Media Management",
+  "categoryEN": "Social Media Management",
+  "year": "2026",
+  "images": [
+    "assets/images/byd_showcase.png",
+    "assets/images/byd_slide1.jpg",
+    "assets/images/byd_slide2.jpg",
+    "assets/images/byd_slide3.jpg",
+    "assets/images/byd_slide4.jpg"
+  ],
+  "descID": "BYD Kota — Menerjemahkan brief client menjadi satu sistem visual yang siap melaju. Campaign BYD M6 DM meliputi aset sosial media, carousel 5 slide, poster promosi, dan ad banner Meta/Google.",
+  "descEN": "BYD Kota — Translating client brief into a high-performance visual system. BYD M6 DM campaign featuring social media assets, 5-slide carousel, promo posters, and Meta/Google ad banners.",
+  "metricVal1": "5",
+  "metricLbl1ID": "Slide Carousel",
+  "metricLbl1EN": "Carousel Slides",
+  "metricVal2": "310M+",
+  "metricLbl2ID": "Harga Mulai",
+  "metricLbl2EN": "Starting Price"
+}

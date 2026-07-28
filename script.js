@@ -439,7 +439,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function initPortfolioData() {
     try {
-      const res = await fetch('data/portfolio.json');
+      const knownIds = ['web-1', 'byd-1', 'brand-1', 'smm-1', 'poster-1', 'brand-2', 'smm-2', 'poster-2'];
+      const fetchedItems = [];
+
+      for (const id of knownIds) {
+        try {
+          const itemRes = await fetch(`data/portfolios/${id}.json?v=${Date.now()}`);
+          if (itemRes.ok) {
+            const itemData = await itemRes.json();
+            if (itemData && itemData.id) {
+              fetchedItems.push(itemData);
+            }
+          }
+        } catch (e) {}
+      }
+
+      if (fetchedItems.length > 0) {
+        portfolioDataList = fetchedItems;
+        renderPortfolioGrid();
+        return;
+      }
+
+      const res = await fetch(`data/portfolio.json?v=${Date.now()}`);
       if (res.ok) {
         const json = await res.json();
         if (json && Array.isArray(json.items) && json.items.length > 0) {

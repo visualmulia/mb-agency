@@ -1,0 +1,21 @@
+{
+  "id": "smm-1",
+  "title": "Kopi Masbroo — Content Engine",
+  "categoryFilter": "smm",
+  "categoryID": "Social Media Management",
+  "categoryEN": "Social Media Management",
+  "year": "2026",
+  "images": [
+    "assets/images/smm_showcase.jpg",
+    "assets/images/social_media_feed.jpg",
+    "assets/images/hero_banner.jpg"
+  ],
+  "descID": "Pengembangan visual feed Instagram & TikTok Ads untuk Kopi Masbroo. Meningkatkan engagement hingga 3.2x dengan strategi konten AI + Human Direction.",
+  "descEN": "Instagram feed & TikTok Ads visual development for Kopi Masbroo. Boosted engagement by 3.2x with AI + Human Direction content strategy.",
+  "metricVal1": "24",
+  "metricLbl1ID": "Feed & Carousel",
+  "metricLbl1EN": "Feed & Carousel",
+  "metricVal2": "3.2x",
+  "metricLbl2ID": "Pertumbuhan Engagement",
+  "metricLbl2EN": "Engagement Growth"
+}

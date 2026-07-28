@@ -1,0 +1,20 @@
+{
+  "id": "smm-2",
+  "title": "Lumina Fashion — Instagram Campaign",
+  "categoryFilter": "smm",
+  "categoryID": "Social Media Management",
+  "categoryEN": "Social Media Management",
+  "year": "2026",
+  "images": [
+    "assets/images/social_media_feed.jpg",
+    "assets/images/smm_showcase.jpg"
+  ],
+  "descID": "Serial edukasi & kampanye koleksi pakaian musim panas dengan visual aesthetic modern dan copywriting converting.",
+  "descEN": "Educational carousel series & summer fashion collection campaign with modern aesthetic visuals & high-converting copywriting.",
+  "metricVal1": "18",
+  "metricLbl1ID": "Slide Komedi/Carousel",
+  "metricLbl1EN": "Carousel Slides",
+  "metricVal2": "Konversi",
+  "metricLbl2ID": "Iklan Teroptimasi",
+  "metricLbl2EN": "Optimized Ads"
+}

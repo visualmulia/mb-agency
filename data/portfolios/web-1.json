@@ -1,0 +1,19 @@
+{
+  "id": "web-1",
+  "title": "The Rover Kerobokan — Landing Page",
+  "categoryFilter": "web",
+  "categoryID": "Web Dev & Landing Page",
+  "categoryEN": "Web Dev & Landing Page",
+  "year": "2026",
+  "images": [
+    "assets/images/therover_showcase.jpg"
+  ],
+  "descID": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Website Landing Page interaktif untuk 24 exclusive Mezzanine dan Studio apartment suites di Bali. Dilengkapi sistem reservasi via WhatsApp, filter kamar, galeri foto, & lokasi Google Maps.",
+  "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
+  "metricVal1": "24",
+  "metricLbl1ID": "Apartment Suites",
+  "metricLbl1EN": "Apartment Suites",
+  "metricVal2": "100%",
+  "metricLbl2ID": "Mobile Responsive",
+  "metricLbl2EN": "Mobile Responsive"
+}

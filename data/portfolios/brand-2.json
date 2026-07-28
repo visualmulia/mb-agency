@@ -1,0 +1,20 @@
+{
+  "id": "brand-2",
+  "title": "Aura Skincare — Brand Guidelines",
+  "categoryFilter": "brand",
+  "categoryID": "Brand Assets & Identity",
+  "categoryEN": "Brand Assets & Identity",
+  "year": "2026",
+  "images": [
+    "assets/images/brand_identity.jpg",
+    "assets/images/brand_kit_showcase.jpg"
+  ],
+  "descID": "Identitas visual luxury skincare meliputi logo vektor, skema warna palet, tipografi khusus, dan kemasan produk.",
+  "descEN": "Luxury skincare visual identity featuring vector logo, color palette swatches, custom typography, and product packaging.",
+  "metricVal1": "100%",
+  "metricLbl1ID": "Presisi Vektor",
+  "metricLbl1EN": "Vector Precision",
+  "metricVal2": "Brand",
+  "metricLbl2ID": "Panduan Identitas",
+  "metricLbl2EN": "Identity Guidelines"
+}

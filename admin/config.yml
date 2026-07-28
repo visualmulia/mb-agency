@@ -9,31 +9,27 @@ media_folder: "assets/images"
 public_folder: "assets/images"
 
 collections:
-  - name: "portfolio_collection"
-    label: "Portofolio Showcase MB Agency"
-    files:
-      - file: "data/portfolio.json"
-        label: "Daftar Portofolio Work"
-        name: "portfolio_data"
-        format: "json"
-        fields:
-          - label: "Koleksi Portofolio"
-            name: "items"
-            widget: "list"
-            summary: "{{fields.title}} ({{fields.categoryID}})"
-            fields:
-              - { label: "ID Proyek", name: "id", widget: "string" }
-              - { label: "Judul Proyek", name: "title", widget: "string" }
-              - { label: "Kategori Filter", name: "categoryFilter", widget: "select", options: ["smm", "web", "brand", "poster"] }
-              - { label: "Nama Kategori (Bahasa Indonesia)", name: "categoryID", widget: "string" }
-              - { label: "Nama Kategori (Bahasa Inggris)", name: "categoryEN", widget: "string" }
-              - { label: "Tahun Proyek", name: "year", widget: "string", default: "2026" }
-              - { label: "Daftar Gambar Slide (Paling atas = Grid Thumbnail)", name: "images", widget: "list", field: { label: "Gambar", name: "image", widget: "image" } }
-              - { label: "Deskripsi (Bahasa Indonesia)", name: "descID", widget: "text" }
-              - { label: "Deskripsi (Bahasa Inggris)", name: "descEN", widget: "text" }
-              - { label: "Nilai Metrik 1", name: "metricVal1", widget: "string" }
-              - { label: "Label Metrik 1 (Bahasa Indonesia)", name: "metricLbl1ID", widget: "string" }
-              - { label: "Label Metrik 1 (Bahasa Inggris)", name: "metricLbl1EN", widget: "string" }
-              - { label: "Nilai Metrik 2", name: "metricVal2", widget: "string" }
-              - { label: "Label Metrik 2 (Bahasa Indonesia)", name: "metricLbl2ID", widget: "string" }
-              - { label: "Label Metrik 2 (Bahasa Inggris)", name: "metricLbl2EN", widget: "string" }
+  - name: "portfolios"
+    label: "Daftar Portofolio Work"
+    folder: "data/portfolios"
+    create: true
+    slug: "{{id}}"
+    extension: "json"
+    format: "json"
+    summary: "{{title}} ({{categoryID}})"
+    fields:
+      - { label: "ID Proyek", name: "id", widget: "string" }
+      - { label: "Judul Proyek", name: "title", widget: "string" }
+      - { label: "Kategori Filter", name: "categoryFilter", widget: "select", options: ["smm", "web", "brand", "poster"] }
+      - { label: "Nama Kategori (Bahasa Indonesia)", name: "categoryID", widget: "string" }
+      - { label: "Nama Kategori (Bahasa Inggris)", name: "categoryEN", widget: "string" }
+      - { label: "Tahun Proyek", name: "year", widget: "string", default: "2026" }
+      - { label: "Daftar Gambar Slide (Paling atas = Grid Thumbnail)", name: "images", widget: "list", field: { label: "Gambar", name: "image", widget: "image" } }
+      - { label: "Deskripsi (Bahasa Indonesia)", name: "descID", widget: "text" }
+      - { label: "Deskripsi (Bahasa Inggris)", name: "descEN", widget: "text" }
+      - { label: "Nilai Metrik 1", name: "metricVal1", widget: "string" }
+      - { label: "Label Metrik 1 (Bahasa Indonesia)", name: "metricLbl1ID", widget: "string" }
+      - { label: "Label Metrik 1 (Bahasa Inggris)", name: "metricLbl1EN", widget: "string" }
+      - { label: "Nilai Metrik 2", name: "metricVal2", widget: "string" }
+      - { label: "Label Metrik 2 (Bahasa Indonesia)", name: "metricLbl2ID", widget: "string" }
+      - { label: "Label Metrik 2 (Bahasa Inggris)", name: "metricLbl2EN", widget: "string" }
