@@ -1,21 +1,26 @@
 {
-  "id": "poster-1",
-  "title": "TechVision 2026 — Key Visual Poster",
-  "categoryFilter": "poster",
-  "categoryID": "Digital Image & Poster",
-  "categoryEN": "Digital Image & Poster",
-  "year": "2026",
-  "images": [
-    "assets/images/poster_kv.jpg",
-    "assets/images/poster_ad_creative.jpg",
-    "assets/images/hero_banner.jpg"
-  ],
-  "descID": "Desain Key Visual (KV) utama & poster peluncuran event teknologi nasional. Termasuk banner cetak high-res & set iklan Meta Ads.",
-  "descEN": "Master Key Visual (KV) & promotional poster design for national tech event. Includes high-res print banner & Meta Ads campaign set.",
-  "metricVal1": "5",
-  "metricLbl1ID": "Varian Spanduk",
-  "metricLbl1EN": "Banner Variants",
+  "metricVal1": "10",
   "metricVal2": "Key Visual",
-  "metricLbl2ID": "Kreatif Utama",
-  "metricLbl2EN": "Master Creative"
+  "metricLbl1ID": "Image Assets",
+  "metricLbl2ID": "User Trust ",
+  "categoryEN": "Digital Image & Poster",
+  "descID": "MB Agency berkolaborasi dengan The Rover untuk menciptakan konten visual berkualitas tinggi yang tidak hanya menampilkan keindahan properti, tetapi juga membangun kepercayaan yang lebih kuat, meningkatkan perceived value, dan mendukung kehadiran brand yang lebih profesional di pasar.\n",
+  "metricLbl1EN": "Image Assets",
+  "metricLbl2EN": "User Trust",
+  "categoryFilter": "poster",
+  "title": "TheRover - Social Media Campaign",
+  "images": [
+    "assets/images/chatgpt-image-jul-29-2026-02_13_37-am.png",
+    "assets/images/chatgpt-image-jul-29-2026-02_00_52-am-1-.png",
+    "assets/images/chatgpt-image-jul-29-2026-02_00_53-am-2-.png",
+    "assets/images/chatgpt-image-jul-29-2026-02_00_53-am-3-.png",
+    "assets/images/chatgpt-image-jul-29-2026-02_00_54-am-4-.png",
+    "assets/images/chatgpt-image-jul-29-2026-02_00_55-am-5-.png",
+    "assets/images/chatgpt-image-jul-29-2026-02_00_55-am-6-.png",
+    "assets/images/chatgpt-image-jul-29-2026-02_00_55-am-7-.png"
+  ],
+  "categoryID": "Digital Image & Poster",
+  "descEN": "MB Agency partnered with The Rover to create high-quality visual content that not only showcases the beauty of the property, but also builds stronger trust, elevates perceived value, and supports a more professional market presence.",
+  "id": "poster-1",
+  "year": "2026"
 }
