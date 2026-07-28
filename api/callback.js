@@ -34,24 +34,43 @@ export default async function handler(req, res) {
       <!DOCTYPE html>
       <html>
       <head>
-        <title>Authorizing...</title>
+        <title>Authorizing MB Agency CMS...</title>
       </head>
-      <body>
+      <body style="font-family: system-ui, sans-serif; text-align: center; padding: 2rem; background: #FAFAFA; color: #0F172A;">
+        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Authorized Successfully! ✨</h3>
+        <p style="font-size: 0.9rem; color: #64748B;">Connecting to MB Agency Dashboard...</p>
         <script>
           (function() {
             const token = "${token}";
-            const provider = "${provider}";
-            const message = 'authorization:' + provider + ':success:' + JSON.stringify({ token: token, provider: provider });
+            const provider = "github";
+            const payload = JSON.stringify({ token: token, provider: provider });
 
-            if (window.opener) {
-              window.opener.postMessage(message, '*');
-              setTimeout(function() {
-                window.close();
-              }, 300);
+            function doPost() {
+              if (window.opener) {
+                try {
+                  window.opener.postMessage("authorizing:github", "*");
+                  window.opener.postMessage("authorization:github:success:" + payload, "*");
+                } catch(e) {
+                  console.error("postMessage error:", e);
+                }
+              }
             }
+
+            doPost();
+
+            let attempts = 0;
+            const interval = setInterval(function() {
+              attempts++;
+              doPost();
+              if (attempts >= 10) {
+                clearInterval(interval);
+                setTimeout(function() {
+                  window.close();
+                }, 400);
+              }
+            }, 200);
           })();
         </script>
-        <p style="font-family: sans-serif; text-align: center; margin-top: 2rem;">Authorized successfully! Closing window...</p>
       </body>
       </html>
     `;

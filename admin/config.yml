@@ -3,7 +3,7 @@ backend:
   repo: visualmulia/mb-agency
   branch: main
   base_url: https://www.mbagency.web.id
-  auth_endpoint: /api/auth
+  auth_endpoint: api/auth
 
 media_folder: "assets/images"
 public_folder: "assets/images"
