@@ -442,7 +442,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const res = await fetch('data/portfolio.json');
       if (res.ok) {
         const json = await res.json();
-        if (Array.isArray(json) && json.length > 0) {
+        if (json && Array.isArray(json.items) && json.items.length > 0) {
+          portfolioDataList = json.items;
+        } else if (Array.isArray(json) && json.length > 0) {
           portfolioDataList = json;
         }
       }

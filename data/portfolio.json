@@ -1,167 +1,169 @@
-[
-  {
-    "id": "web-1",
-    "title": "The Rover Kerobokan — Landing Page",
-    "categoryFilter": "web",
-    "categoryID": "Web Dev & Landing Page",
-    "categoryEN": "Web Dev & Landing Page",
-    "year": "2026",
-    "images": [
-      "assets/images/therover_showcase.jpg"
-    ],
-    "descID": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Website Landing Page interaktif untuk 24 exclusive Mezzanine dan Studio apartment suites di Bali. Dilengkapi sistem reservasi via WhatsApp, filter kamar, galeri foto, & lokasi Google Maps.",
-    "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
-    "metricVal1": "24",
-    "metricLbl1ID": "Apartment Suites",
-    "metricLbl1EN": "Apartment Suites",
-    "metricVal2": "100%",
-    "metricLbl2ID": "Mobile Responsive",
-    "metricLbl2EN": "Mobile Responsive"
-  },
-  {
-    "id": "byd-1",
-    "title": "BYD Kota — Campaign BYD M6 DM",
-    "categoryFilter": "smm",
-    "categoryID": "Social Media Management",
-    "categoryEN": "Social Media Management",
-    "year": "2026",
-    "images": [
-      "assets/images/byd_showcase.png",
-      "assets/images/byd_slide1.jpg",
-      "assets/images/byd_slide2.jpg",
-      "assets/images/byd_slide3.jpg",
-      "assets/images/byd_slide4.jpg"
-    ],
-    "descID": "BYD Kota — Menerjemahkan brief client menjadi satu sistem visual yang siap melaju. Campaign BYD M6 DM meliputi aset sosial media, carousel 5 slide, poster promosi, dan ad banner Meta/Google.",
-    "descEN": "BYD Kota — Translating client brief into a high-performance visual system. BYD M6 DM campaign featuring social media assets, 5-slide carousel, promo posters, and Meta/Google ad banners.",
-    "metricVal1": "5",
-    "metricLbl1ID": "Slide Carousel",
-    "metricLbl1EN": "Carousel Slides",
-    "metricVal2": "310M+",
-    "metricLbl2ID": "Harga Mulai",
-    "metricLbl2EN": "Starting Price"
-  },
-  {
-    "id": "brand-1",
-    "title": "Wanderlust.id — Brand & Social",
-    "categoryFilter": "brand",
-    "categoryID": "Desain Konten Sosial Media",
-    "categoryEN": "Social Media Content Design",
-    "year": "2026",
-    "images": [
-      "assets/images/brand_kit_showcase.jpg",
-      "assets/images/brand_identity.jpg",
-      "assets/images/hero_banner.jpg"
-    ],
-    "descID": "Wanderlust.id — platform tour dan travel. Desain untuk kebutuhan Social Media termasuk 6 Single Post, 1 Carousel, dan 5 Story (Total 16 design).",
-    "descEN": "Wanderlust.id — tour & travel platform. Complete Social Media design kit including 6 Single Posts, 1 Carousel, and 5 Stories (Total 16 design assets).",
-    "metricVal1": "16",
-    "metricLbl1ID": "Aset Desain",
-    "metricLbl1EN": "Design Assets",
-    "metricVal2": "Social",
-    "metricLbl2ID": "Konten Sosmed",
-    "metricLbl2EN": "Media Content"
-  },
-  {
-    "id": "smm-1",
-    "title": "Kopi Masbroo — Content Engine",
-    "categoryFilter": "smm",
-    "categoryID": "Social Media Management",
-    "categoryEN": "Social Media Management",
-    "year": "2026",
-    "images": [
-      "assets/images/smm_showcase.jpg",
-      "assets/images/social_media_feed.jpg",
-      "assets/images/hero_banner.jpg"
-    ],
-    "descID": "Pengembangan visual feed Instagram & TikTok Ads untuk Kopi Masbroo. Meningkatkan engagement hingga 3.2x dengan strategi konten AI + Human Direction.",
-    "descEN": "Instagram feed & TikTok Ads visual development for Kopi Masbroo. Boosted engagement by 3.2x with AI + Human Direction content strategy.",
-    "metricVal1": "24",
-    "metricLbl1ID": "Feed & Carousel",
-    "metricLbl1EN": "Feed & Carousel",
-    "metricVal2": "3.2x",
-    "metricLbl2ID": "Pertumbuhan Engagement",
-    "metricLbl2EN": "Engagement Growth"
-  },
-  {
-    "id": "poster-1",
-    "title": "TechVision 2026 — Key Visual Poster",
-    "categoryFilter": "poster",
-    "categoryID": "Digital Image & Poster",
-    "categoryEN": "Digital Image & Poster",
-    "year": "2026",
-    "images": [
-      "assets/images/poster_kv.jpg",
-      "assets/images/poster_ad_creative.jpg",
-      "assets/images/hero_banner.jpg"
-    ],
-    "descID": "Desain Key Visual (KV) utama & poster peluncuran event teknologi nasional. Termasuk banner cetak high-res & set iklan Meta Ads.",
-    "descEN": "Master Key Visual (KV) & promotional poster design for national tech event. Includes high-res print banner & Meta Ads campaign set.",
-    "metricVal1": "5",
-    "metricLbl1ID": "Varian Spanduk",
-    "metricLbl1EN": "Banner Variants",
-    "metricVal2": "Key Visual",
-    "metricLbl2ID": "Kreatif Utama",
-    "metricLbl2EN": "Master Creative"
-  },
-  {
-    "id": "brand-2",
-    "title": "Aura Skincare — Brand Guidelines",
-    "categoryFilter": "brand",
-    "categoryID": "Brand Assets & Identity",
-    "categoryEN": "Brand Assets & Identity",
-    "year": "2026",
-    "images": [
-      "assets/images/brand_identity.jpg",
-      "assets/images/brand_kit_showcase.jpg"
-    ],
-    "descID": "Identitas visual luxury skincare meliputi logo vektor, skema warna palet, tipografi khusus, dan kemasan produk.",
-    "descEN": "Luxury skincare visual identity featuring vector logo, color palette swatches, custom typography, and product packaging.",
-    "metricVal1": "100%",
-    "metricLbl1ID": "Presisi Vektor",
-    "metricLbl1EN": "Vector Precision",
-    "metricVal2": "Brand",
-    "metricLbl2ID": "Panduan Identitas",
-    "metricLbl2EN": "Identity Guidelines"
-  },
-  {
-    "id": "smm-2",
-    "title": "Lumina Fashion — Instagram Campaign",
-    "categoryFilter": "smm",
-    "categoryID": "Social Media Management",
-    "categoryEN": "Social Media Management",
-    "year": "2026",
-    "images": [
-      "assets/images/social_media_feed.jpg",
-      "assets/images/smm_showcase.jpg"
-    ],
-    "descID": "Serial edukasi & kampanye koleksi pakaian musim panas dengan visual aesthetic modern dan copywriting converting.",
-    "descEN": "Educational carousel series & summer fashion collection campaign with modern aesthetic visuals & high-converting copywriting.",
-    "metricVal1": "18",
-    "metricLbl1ID": "Slide Komedi/Carousel",
-    "metricLbl1EN": "Carousel Slides",
-    "metricVal2": "Konversi",
-    "metricLbl2ID": "Iklan Teroptimasi",
-    "metricLbl2EN": "Optimized Ads"
-  },
-  {
-    "id": "poster-2",
-    "title": "NextGen Summit — Meta Ad Banner Set",
-    "categoryFilter": "poster",
-    "categoryID": "Digital Image & Poster",
-    "categoryEN": "Digital Image & Poster",
-    "year": "2026",
-    "images": [
-      "assets/images/poster_ad_creative.jpg",
-      "assets/images/poster_kv.jpg"
-    ],
-    "descID": "Set spanduk digital untuk promosi media sosial & Google Display Network dengan format adaptif multi-perangkat.",
-    "descEN": "Digital banner set for social media promotion & Google Display Network dengan format adaptif multi-perangkat.",
-    "metricVal1": "8",
-    "metricLbl1ID": "Format Iklan",
-    "metricLbl1EN": "Ad Formats",
-    "metricVal2": "CTR Tinggi",
-    "metricLbl2ID": "Visual Kreatif",
-    "metricLbl2EN": "Creative Visual"
-  }
-]
+{
+  "items": [
+    {
+      "id": "web-1",
+      "title": "The Rover Kerobokan — Landing Page",
+      "categoryFilter": "web",
+      "categoryID": "Web Dev & Landing Page",
+      "categoryEN": "Web Dev & Landing Page",
+      "year": "2026",
+      "images": [
+        "assets/images/therover_showcase.jpg"
+      ],
+      "descID": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Website Landing Page interaktif untuk 24 exclusive Mezzanine dan Studio apartment suites di Bali. Dilengkapi sistem reservasi via WhatsApp, filter kamar, galeri foto, & lokasi Google Maps.",
+      "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
+      "metricVal1": "24",
+      "metricLbl1ID": "Apartment Suites",
+      "metricLbl1EN": "Apartment Suites",
+      "metricVal2": "100%",
+      "metricLbl2ID": "Mobile Responsive",
+      "metricLbl2EN": "Mobile Responsive"
+    },
+    {
+      "id": "byd-1",
+      "title": "BYD Kota — Campaign BYD M6 DM",
+      "categoryFilter": "smm",
+      "categoryID": "Social Media Management",
+      "categoryEN": "Social Media Management",
+      "year": "2026",
+      "images": [
+        "assets/images/byd_showcase.png",
+        "assets/images/byd_slide1.jpg",
+        "assets/images/byd_slide2.jpg",
+        "assets/images/byd_slide3.jpg",
+        "assets/images/byd_slide4.jpg"
+      ],
+      "descID": "BYD Kota — Menerjemahkan brief client menjadi satu sistem visual yang siap melaju. Campaign BYD M6 DM meliputi aset sosial media, carousel 5 slide, poster promosi, dan ad banner Meta/Google.",
+      "descEN": "BYD Kota — Translating client brief into a high-performance visual system. BYD M6 DM campaign featuring social media assets, 5-slide carousel, promo posters, and Meta/Google ad banners.",
+      "metricVal1": "5",
+      "metricLbl1ID": "Slide Carousel",
+      "metricLbl1EN": "Carousel Slides",
+      "metricVal2": "310M+",
+      "metricLbl2ID": "Harga Mulai",
+      "metricLbl2EN": "Starting Price"
+    },
+    {
+      "id": "brand-1",
+      "title": "Wanderlust.id — Brand & Social",
+      "categoryFilter": "brand",
+      "categoryID": "Desain Konten Sosial Media",
+      "categoryEN": "Social Media Content Design",
+      "year": "2026",
+      "images": [
+        "assets/images/brand_kit_showcase.jpg",
+        "assets/images/brand_identity.jpg",
+        "assets/images/hero_banner.jpg"
+      ],
+      "descID": "Wanderlust.id — platform tour dan travel. Desain untuk kebutuhan Social Media termasuk 6 Single Post, 1 Carousel, dan 5 Story (Total 16 design).",
+      "descEN": "Wanderlust.id — tour & travel platform. Complete Social Media design kit including 6 Single Posts, 1 Carousel, and 5 Stories (Total 16 design assets).",
+      "metricVal1": "16",
+      "metricLbl1ID": "Aset Desain",
+      "metricLbl1EN": "Design Assets",
+      "metricVal2": "Social",
+      "metricLbl2ID": "Konten Sosmed",
+      "metricLbl2EN": "Media Content"
+    },
+    {
+      "id": "smm-1",
+      "title": "Kopi Masbroo — Content Engine",
+      "categoryFilter": "smm",
+      "categoryID": "Social Media Management",
+      "categoryEN": "Social Media Management",
+      "year": "2026",
+      "images": [
+        "assets/images/smm_showcase.jpg",
+        "assets/images/social_media_feed.jpg",
+        "assets/images/hero_banner.jpg"
+      ],
+      "descID": "Pengembangan visual feed Instagram & TikTok Ads untuk Kopi Masbroo. Meningkatkan engagement hingga 3.2x dengan strategi konten AI + Human Direction.",
+      "descEN": "Instagram feed & TikTok Ads visual development for Kopi Masbroo. Boosted engagement by 3.2x with AI + Human Direction content strategy.",
+      "metricVal1": "24",
+      "metricLbl1ID": "Feed & Carousel",
+      "metricLbl1EN": "Feed & Carousel",
+      "metricVal2": "3.2x",
+      "metricLbl2ID": "Pertumbuhan Engagement",
+      "metricLbl2EN": "Engagement Growth"
+    },
+    {
+      "id": "poster-1",
+      "title": "TechVision 2026 — Key Visual Poster",
+      "categoryFilter": "poster",
+      "categoryID": "Digital Image & Poster",
+      "categoryEN": "Digital Image & Poster",
+      "year": "2026",
+      "images": [
+        "assets/images/poster_kv.jpg",
+        "assets/images/poster_ad_creative.jpg",
+        "assets/images/hero_banner.jpg"
+      ],
+      "descID": "Desain Key Visual (KV) utama & poster peluncuran event teknologi nasional. Termasuk banner cetak high-res & set iklan Meta Ads.",
+      "descEN": "Master Key Visual (KV) & promotional poster design for national tech event. Includes high-res print banner & Meta Ads campaign set.",
+      "metricVal1": "5",
+      "metricLbl1ID": "Varian Spanduk",
+      "metricLbl1EN": "Banner Variants",
+      metricVal2: "Key Visual",
+      "metricLbl2ID": "Kreatif Utama",
+      "metricLbl2EN": "Master Creative"
+    },
+    {
+      "id": "brand-2",
+      "title": "Aura Skincare — Brand Guidelines",
+      "categoryFilter": "brand",
+      "categoryID": "Brand Assets & Identity",
+      "categoryEN": "Brand Assets & Identity",
+      "year": "2026",
+      "images": [
+        "assets/images/brand_identity.jpg",
+        "assets/images/brand_kit_showcase.jpg"
+      ],
+      "descID": "Identitas visual luxury skincare meliputi logo vektor, skema warna palet, tipografi khusus, dan kemasan produk.",
+      "descEN": "Luxury skincare visual identity featuring vector logo, color palette swatches, custom typography, and product packaging.",
+      "metricVal1": "100%",
+      "metricLbl1ID": "Presisi Vektor",
+      "metricLbl1EN": "Vector Precision",
+      "metricVal2": "Brand",
+      "metricLbl2ID": "Panduan Identitas",
+      "metricLbl2EN": "Identity Guidelines"
+    },
+    {
+      "id": "smm-2",
+      "title": "Lumina Fashion — Instagram Campaign",
+      "categoryFilter": "smm",
+      "categoryID": "Social Media Management",
+      "categoryEN": "Social Media Management",
+      "year": "2026",
+      "images": [
+        "assets/images/social_media_feed.jpg",
+        "assets/images/smm_showcase.jpg"
+      ],
+      "descID": "Serial edukasi & kampanye koleksi pakaian musim panas dengan visual aesthetic modern dan copywriting converting.",
+      "descEN": "Educational carousel series & summer fashion collection campaign with modern aesthetic visuals & high-converting copywriting.",
+      "metricVal1": "18",
+      "metricLbl1ID": "Slide Komedi/Carousel",
+      "metricLbl1EN": "Carousel Slides",
+      "metricVal2": "Konversi",
+      "metricLbl2ID": "Iklan Teroptimasi",
+      "metricLbl2EN": "Optimized Ads"
+    },
+    {
+      "id": "poster-2",
+      "title": "NextGen Summit — Meta Ad Banner Set",
+      "categoryFilter": "poster",
+      "categoryID": "Digital Image & Poster",
+      "categoryEN": "Digital Image & Poster",
+      "year": "2026",
+      "images": [
+        "assets/images/poster_ad_creative.jpg",
+        "assets/images/poster_kv.jpg"
+      ],
+      "descID": "Set spanduk digital untuk promosi media sosial & Google Display Network dengan format adaptif multi-perangkat.",
+      "descEN": "Digital banner set for social media promotion & Google Display Network dengan format adaptif multi-perangkat.",
+      "metricVal1": "8",
+      "metricLbl1ID": "Format Iklan",
+      "metricLbl1EN": "Ad Formats",
+      "metricVal2": "CTR Tinggi",
+      "metricLbl2ID": "Visual Kreatif",
+      "metricLbl2EN": "Creative Visual"
+    }
+  ]
+}
