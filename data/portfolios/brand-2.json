@@ -1,20 +1,26 @@
 {
-  "id": "brand-2",
-  "title": "Aura Skincare — Brand Guidelines",
-  "categoryFilter": "brand",
-  "categoryID": "Brand Assets & Identity",
-  "categoryEN": "Brand Assets & Identity",
-  "year": "2026",
-  "images": [
-    "assets/images/brand_identity.jpg",
-    "assets/images/brand_kit_showcase.jpg"
-  ],
-  "descID": "Identitas visual luxury skincare meliputi logo vektor, skema warna palet, tipografi khusus, dan kemasan produk.",
-  "descEN": "Luxury skincare visual identity featuring vector logo, color palette swatches, custom typography, and product packaging.",
-  "metricVal1": "100%",
-  "metricLbl1ID": "Presisi Vektor",
-  "metricLbl1EN": "Vector Precision",
+  "metricVal1": "45",
   "metricVal2": "Brand",
-  "metricLbl2ID": "Panduan Identitas",
-  "metricLbl2EN": "Identity Guidelines"
+  "metricLbl1ID": "Design Assets",
+  "metricLbl2ID": "Kampanye Media Sosial",
+  "categoryEN": "Brand Assets & Identity",
+  "descID": "Social Campaign untuk Reese’s yang menghadirkan visual bold, playful, dan crave-worthy melalui image assets, social media carousel, dan hero visual berbasis karakter ikonik chocolate-peanut butter Reese’s.",
+  "metricLbl1EN": "Design Assets",
+  "metricLbl2EN": "Social Campaign",
+  "categoryFilter": "brand",
+  "title": "Reese Chocolate  - Brand Campaign Assets",
+  "images": [
+    "assets/images/chatgpt-image-jul-29-2026-12_21_02-am.png",
+    "assets/images/chatgpt-image-jul-28-2026-10_36_14-pm-1-.png",
+    "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-2-.png",
+    "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-3-.png",
+    "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-4-.png",
+    "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-5-.png",
+    "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-6-.png",
+    "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-7-.png"
+  ],
+  "categoryID": "Brand Assets & Identity",
+  "descEN": "A bold and crave-worthy Social Campaign for Reese’s, featuring custom image assets, social media carousel visuals, and hero imagery inspired by the brand’s iconic chocolate-and-peanut-butter character.",
+  "id": "brand-2",
+  "year": "2026"
 }
