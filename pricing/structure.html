@@ -1,0 +1,51 @@
+<section id="calculator" class="section-dark">
+    <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+            <span class="sub">Pricing Configurator</span>
+            <h2>Customize Your Campaign</h2>
+        </div>
+
+        <div class="calculator-wrapper">
+            <!-- Sisi Kiri: Pilihan Layanan -->
+            <div class="calc-inputs">
+                <div class="calc-group">
+                    <label for="calc-project-type" class="group-label">Select Baseline Service Package</label>
+                    <div class="custom-select-wrapper">
+                        <select id="calc-project-type" name="calc-project-type">
+                            <!-- Diisi dinamis oleh JavaScript -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="calc-group">
+                    <label class="group-label">Include Extra Add-ons</label>
+                    <div class="features-checkbox-grid" id="calc-features-list">
+                        <!-- Checkbox diisi dinamis oleh JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sisi Kanan: Hasil Kalkulasi -->
+            <div class="calc-results-card">
+                <div class="toggle-currency-container">
+                    <button class="currency-toggle-btn" id="currency-toggle">Switch to USD ($)</button>
+                </div>
+                
+                <div class="result-metric">
+                    <div class="result-label">Estimated Investment Range</div>
+                    <div class="result-value" id="calc-cost-range">Rp 0</div>
+                </div>
+
+                <div class="result-timeline" id="calc-timeline">
+                    Est. Service Duration: 4 Weeks
+                </div>
+
+                <button class="btn btn-primary" id="calc-book-btn" style="width: 100%; justify-content: center;">
+                    Book This Configuration
+                </button>
+
+                <p class="calc-disclaimer">*Note: Paket ini sudah termasuk riset kompetitor, setup tools analitik, manajemen posting harian, dan laporan evaluasi bulanan.</p>
+            </div>
+        </div>
+    </div>
+</section>

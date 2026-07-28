@@ -1,0 +1,215 @@
+/* Layout Wrapper */
+.calculator-wrapper {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    border-radius: 28px;
+    background-color: #0d1321;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.calc-inputs {
+    padding: 48px;
+}
+
+.calc-group {
+    margin-bottom: 32px;
+}
+
+.calc-group label.group-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    color: #c5ff00; /* Neon Lime */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+/* Custom Dropdown Styling */
+.custom-select-wrapper {
+    position: relative;
+}
+
+.custom-select-wrapper select {
+    width: 100%;
+    padding: 16px 20px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    appearance: none;
+    font-size: 15px;
+    color: #f3f4f6;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.custom-select-wrapper select:focus {
+    border-color: #c5ff00;
+    outline: none;
+}
+
+.custom-select-wrapper::after {
+    content: '▼';
+    font-size: 10px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #9ca3af;
+}
+
+/* Add-on Checkbox Cards */
+.features-checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.feature-checkbox-card {
+    position: relative;
+}
+
+.feature-checkbox-card input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.feature-checkbox-card label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.feature-checkbox-card label:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.feature-checkbox-card input[type="checkbox"]:checked + label {
+    border-color: #c5ff00;
+    background: rgba(197, 255, 0, 0.04);
+}
+
+/* Indicator Box */
+.checkbox-indicator {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    position: relative;
+    flex-shrink: 0;
+    transition: all 0.4s ease;
+}
+
+.feature-checkbox-card input[type="checkbox"]:checked + label .checkbox-indicator {
+    background-color: #c5ff00;
+    border-color: #c5ff00;
+}
+
+.feature-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #f3f4f6;
+}
+
+.feature-price {
+    font-size: 11px;
+    color: #9ca3af;
+}
+
+.feature-checkbox-card input[type="checkbox"]:checked + label .feature-price {
+    color: #c5ff00;
+}
+
+/* Sisi Kanan: Output Card */
+.calc-results-card {
+    background-color: #080c14;
+    border-left: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.result-metric {
+    margin-bottom: 24px;
+}
+
+.result-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.result-value {
+    font-size: clamp(28px, 3.5vw, 42px);
+    font-weight: 900;
+    color: #c5ff00;
+}
+
+.result-timeline {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 10px 24px;
+    border-radius: 30px;
+    margin-bottom: 32px;
+}
+
+.currency-toggle-btn {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #f3f4f6;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    text-transform: uppercase;
+}
+
+.currency-toggle-btn:hover {
+    background-color: #c5ff00;
+    color: #080c14;
+}
+
+.calc-disclaimer {
+    font-size: 11px;
+    color: #9ca3af;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+/* Responsif Mobile */
+@media (max-width: 991px) {
+    .calculator-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .calc-results-card {
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+}
