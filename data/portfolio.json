@@ -195,6 +195,31 @@
       "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
       "id": "web-1",
       "year": "2026"
+    },
+    {
+      "metricVal1": "10",
+      "metricVal2": "Social",
+      "metricLbl1ID": "Desain Konten Sosial Media",
+      "metricLbl2ID": "Konten Media",
+      "categoryEN": "Social Media Content",
+      "descID": "MB Agency membantu Serabi Solo 66 meningkatkan tampilan konten social media melalui visual yang lebih modern, hangat, dan menggugah selera, sambil tetap mempertahankan karakter tradisional dari serabi khas Solo.",
+      "metricLbl1EN": "Social Media Content Design",
+      "metricLbl2EN": "Media Content",
+      "categoryFilter": "smm",
+      "title": "Serabi Solo 66",
+      "images": [
+        "assets/images/chatgpt-image-jul-29-2026-07_14_02-pm-1-.png",
+        "assets/images/01.png",
+        "assets/images/02.png",
+        "assets/images/03.png",
+        "assets/images/04.png",
+        "assets/images/05.png",
+        "assets/images/06.png"
+      ],
+      "categoryID": "Sosial Media Konten",
+      "descEN": "MB Agency helped Serabi Solo 66 elevate its social media presence through a warmer, more modern, and appetizing visual direction while preserving the traditional character of Solo-style serabi.",
+      "id": "brand-6",
+      "year": "2026"
     }
   ]
 }
