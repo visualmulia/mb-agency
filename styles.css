@@ -592,7 +592,7 @@ button {
   gap: 2rem;
 }
 
-/* Centered High-Contrast Lime Button for Showcase Directory */
+/* Centered Sleek Dark Button for Showcase Directory */
 .portfolio-view-all-wrap {
   display: flex;
   justify-content: center;
@@ -601,43 +601,42 @@ button {
   width: 100%;
 }
 
-.btn-lime-showcase {
+.btn-dark-showcase {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  padding: 1.05rem 2.5rem;
+  padding: 0.95rem 2.25rem;
   font-family: 'Plus Jakarta Sans', var(--font-main);
-  font-size: 1.05rem;
-  font-weight: 800;
-  color: #0f172a;
-  background-color: var(--accent-lime, #c5ff00);
-  border: 2px solid #0f172a;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--btn-dark-bg, #0f172a);
+  border: 1px solid var(--btn-dark-bg, #0f172a);
   border-radius: var(--radius-full, 9999px);
-  box-shadow: 0 10px 25px -5px rgba(197, 255, 0, 0.55), 0 4px 12px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
-  overflow: hidden;
 }
 
-.btn-lime-showcase:hover {
-  background-color: #d6ff24;
-  color: #000000;
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 20px 40px -8px rgba(197, 255, 0, 0.7), 0 8px 20px rgba(15, 23, 42, 0.18);
-  border-color: #000000;
+.btn-dark-showcase:hover {
+  background-color: #1e293b;
+  border-color: #1e293b;
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px -5px rgba(15, 23, 42, 0.35);
 }
 
-.btn-lime-showcase .btn-arrow-icon {
-  font-size: 1.25rem;
-  font-weight: 800;
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+.btn-dark-showcase .btn-arrow-icon {
+  font-size: 1.15rem;
+  font-weight: 700;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.btn-lime-showcase:hover .btn-arrow-icon {
-  transform: translateX(5px) translateY(-3px);
+.btn-dark-showcase:hover .btn-arrow-icon {
+  transform: translateX(4px) translateY(-2px);
 }
 
 .portfolio-item {

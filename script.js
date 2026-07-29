@@ -626,6 +626,16 @@ document.addEventListener('DOMContentLoaded', () => {
   function openShowcaseModal(data) {
     currentActiveItemData = data;
     currentCarouselIndex = 0;
+
+    // Instant Image Preloading Engine (Pre-caches all slides in memory for 0ms arrow response)
+    if (data && data.images && Array.isArray(data.images)) {
+      data.images.forEach(src => {
+        const preImg = new Image();
+        preImg.decoding = 'async';
+        preImg.src = src;
+      });
+    }
+
     updateShowcaseModalLang();
     renderCarouselImage();
     if (showcaseModal) showcaseModal.classList.add('active');
