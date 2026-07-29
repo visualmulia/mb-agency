@@ -521,7 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (viewAllShowcaseText) {
-      viewAllShowcaseText.textContent = isEN ? 'View All Projects ↗' : 'Lihat Semua Portofolio ↗';
+      viewAllShowcaseText.textContent = isEN ? 'View All Projects' : 'Lihat Semua Portofolio';
     }
   }
 
