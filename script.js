@@ -772,12 +772,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const calculatorConfig = {
     projectTypes: {
-      starter_smm: { nameID: "Starter Pack: 10 Konten Sosial Media (190K / $22)", nameEN: "Starter Pack: 10 Social Media Posts ($22 / Rp 190K)", basePriceUSD: 22, baseWeeks: 1, baseIDR: 190000 },
-      growth_smm: { nameID: "Growth Pack: 21 Konten Sosial Media (370K / $36)", nameEN: "Growth Pack: 21 Social Media Posts ($36 / Rp 370K)", basePriceUSD: 36, baseWeeks: 2, baseIDR: 370000 },
-      pro_smm: { nameID: "Pro Business: Monthly Engine s/d 45 Desain + Caption (1.000K / $100)", nameEN: "Pro Business: Monthly Engine up to 45 Designs + Captions ($100 / Rp 1.000K)", basePriceUSD: 100, baseWeeks: 4, baseIDR: 1000000 },
-      brand_kit: { nameID: "Brand Identity Kit & Guidelines (890K / $60)", nameEN: "Brand Identity Kit & Guidelines ($60 / Rp 890K)", basePriceUSD: 60, baseWeeks: 1, baseIDR: 890000 },
-      web_landing: { nameID: "Web Dev: Landing Page Express (5.760K / $320)", nameEN: "Web Dev: Express Landing Page ($320 / Rp 5.760K)", basePriceUSD: 320, baseWeeks: 2, baseIDR: 5760000 },
-      web_saas: { nameID: "Web Dev: Growth SaaS MVP / Dashboard (21.600K / $1200)", nameEN: "Web Dev: Growth SaaS MVP / Web Dashboard ($1.200 / Rp 21.600K)", basePriceUSD: 1200, baseWeeks: 4, baseIDR: 21600000 }
+      starter_smm: { nameID: "Starter Pack: 10 Konten Sosial Media (190K / $22)", nameEN: "Starter Pack: 10 Social Media Posts ($22 / Rp 190K)", basePriceUSD: 22, baseIDR: 190000, durationID: "2 hari / cycle", durationEN: "2 Days / Cycle" },
+      growth_smm: { nameID: "Growth Pack: 21 Konten Sosial Media (370K / $36)", nameEN: "Growth Pack: 21 Social Media Posts ($36 / Rp 370K)", basePriceUSD: 36, baseIDR: 370000, durationID: "3 hari / cycle", durationEN: "3 Days / Cycle" },
+      pro_smm: { nameID: "Pro Business: Monthly Engine s/d 45 Desain + Caption (1.000K / $100)", nameEN: "Pro Business: Monthly Engine up to 45 Designs + Captions ($100 / Rp 1.000K)", basePriceUSD: 100, baseIDR: 1000000, durationID: "1 bulan / cycle", durationEN: "1 Month / Cycle" },
+      brand_kit: { nameID: "Brand Identity Kit & Guidelines (890K / $60)", nameEN: "Brand Identity Kit & Guidelines ($60 / Rp 890K)", basePriceUSD: 60, baseIDR: 890000, durationID: "1 minggu / cycle", durationEN: "1 Week / Cycle" },
+      web_landing: { nameID: "Web Dev: Landing Page Express (5.760K / $320)", nameEN: "Web Dev: Express Landing Page ($320 / Rp 5.760K)", basePriceUSD: 320, baseIDR: 5760000, durationID: "1 minggu / cycle", durationEN: "1 Week / Cycle" },
+      web_saas: { nameID: "Web Dev: Growth SaaS MVP / Dashboard (21.600K / $1200)", nameEN: "Web Dev: Growth SaaS MVP / Web Dashboard ($1.200 / Rp 21.600K)", basePriceUSD: 1200, baseIDR: 21600000, durationID: "4 minggu / cycle", durationEN: "4 Weeks / Cycle" }
     },
     features: {
       copywriting: { nameID: "Creative Copywriting SEO & Captions", nameEN: "Creative Copywriting SEO & Captions", priceUSD: 50, priceIDR: 750000, weeks: 0 },
@@ -894,7 +894,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       costDisplay.innerHTML = `${formatCurrency(minCostUSD, minCostIDR)} - ${formatCurrency(maxCostUSD, maxCostIDR)}`;
       const durText = currentLang === 'EN' ? 'Est. Service Duration' : 'Estimasi Durasi Layanan';
-      timelineDisplay.textContent = `${durText}: ${Math.ceil(totalWeeks)} Weeks / Cycle`;
+      const durationVal = currentLang === 'EN' ? (selectedType.durationEN || '1 Week / Cycle') : (selectedType.durationID || '1 minggu / cycle');
+      timelineDisplay.textContent = `${durText}: ${durationVal}`;
 
       if (bookBtn) {
         bookBtn.onclick = function() {
