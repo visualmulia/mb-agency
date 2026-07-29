@@ -381,7 +381,29 @@ document.addEventListener('DOMContentLoaded', () => {
       floatingWaBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waText)}`;
     }
 
+    // Directory Page Translations
+    const dirHeroTitle = document.getElementById('dirHeroTitle');
+    const dirHeroDesc = document.getElementById('dirHeroDesc');
+    const backHomeLink = document.getElementById('backHomeLink');
+    const sortLabel = document.getElementById('sortLabel');
+    const optDefault = document.getElementById('optDefault');
+    const optNewest = document.getElementById('optNewest');
+    const optOldest = document.getElementById('optOldest');
+    const optTitle = document.getElementById('optTitle');
+    const tabAll = document.getElementById('tabAll');
+
+    if (dirHeroTitle) dirHeroTitle.textContent = lang === 'EN' ? 'MB Agency Work Directory & Showcase' : 'Direktori Karya & Portofolio MB Agency';
+    if (dirHeroDesc) dirHeroDesc.textContent = lang === 'EN' ? 'Explore all visual design works, social media campaigns, brand identities, and web developments we have crafted.' : 'Eksplorasi seluruh karya desain visual, kampanye sosial media, identitas brand, dan pengembangan web yang telah kami kerjakan.';
+    if (backHomeLink) backHomeLink.textContent = lang === 'EN' ? '← Back to Main Home' : '← Kembali ke Beranda Utama';
+    if (sortLabel) sortLabel.textContent = lang === 'EN' ? 'Sort By:' : 'Urutkan:';
+    if (optDefault) optDefault.textContent = lang === 'EN' ? 'Custom CMS Order' : 'Urutan Kustom CMS';
+    if (optNewest) optNewest.textContent = lang === 'EN' ? 'Newest → Oldest' : 'Terbaru → Terlama';
+    if (optOldest) optOldest.textContent = lang === 'EN' ? 'Oldest → Newest' : 'Terlama → Terbaru';
+    if (optTitle) optTitle.textContent = lang === 'EN' ? 'Project Title (A - Z)' : 'Judul (A - Z)';
+    if (tabAll) tabAll.textContent = lang === 'EN' ? 'All Works' : 'Semua Karya';
+
     renderModalPackageOptions(lang);
+    renderShowcaseDirectoryGrid();
   }
 
   function renderModalPackageOptions(lang) {
@@ -485,22 +507,19 @@ document.addEventListener('DOMContentLoaded', () => {
       console.warn('CMS JSON load fallback to embedded portfolio data:', err);
     }
 
-    // Sort by order ascending (1, 2, 3...)
-    portfolioDataList.sort((a, b) => (parseInt(a.order) || 99) - (parseInt(b.order) || 99));
+      if (fetchedMap.size > 0) {
+        portfolioDataList = Array.from(fetchedMap.values());
+      }
+    } catch (err) {
+      console.warn('CMS JSON load fallback to embedded portfolio data:', err);
+    }
+
     renderPortfolioGrid();
+    renderShowcaseDirectoryGrid();
   }
 
-  let isExpanded = false;
-  const portfolioLoadMoreWrap = document.getElementById('portfolioLoadMoreWrap');
-  const loadMoreBtn = document.getElementById('loadMoreBtn');
-  const loadMoreText = document.getElementById('loadMoreText');
-
-  if (loadMoreBtn) {
-    loadMoreBtn.addEventListener('click', () => {
-      isExpanded = true;
-      renderPortfolioGrid();
-    });
-  }
+  // --- Homepage Showcase Render Engine (Limit 9 Items) ---
+  const viewAllShowcaseText = document.getElementById('viewAllShowcaseText');
 
   function renderPortfolioGrid() {
     if (!portfolioGrid) return;
@@ -508,16 +527,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const isEN = currentLang === 'EN';
 
-    // Sort by order
-    portfolioDataList.sort((a, b) => (parseInt(a.order) || 99) - (parseInt(b.order) || 99));
-
     const matchingItems = portfolioDataList.filter(item => {
       const cat = item.categoryFilter || 'all';
       return activeFilter === 'all' || activeFilter === cat;
     });
 
-    const INITIAL_LIMIT = 6;
-    const itemsToDisplay = isExpanded ? matchingItems : matchingItems.slice(0, INITIAL_LIMIT);
+    const HOMEPAGE_LIMIT = 9;
+    const itemsToDisplay = matchingItems.slice(0, HOMEPAGE_LIMIT);
 
     itemsToDisplay.forEach((item) => {
       const filterCategory = item.categoryFilter || 'all';
@@ -544,14 +560,8 @@ document.addEventListener('DOMContentLoaded', () => {
       portfolioGrid.appendChild(itemCard);
     });
 
-    // Handle Load More Button Visibility
-    if (portfolioLoadMoreWrap && loadMoreText) {
-      if (matchingItems.length > INITIAL_LIMIT && !isExpanded) {
-        portfolioLoadMoreWrap.style.display = 'block';
-        loadMoreText.textContent = isEN ? 'Load More Projects ✨' : 'Tampilkan Lebih Banyak Portofolio ✨';
-      } else {
-        portfolioLoadMoreWrap.style.display = 'none';
-      }
+    if (viewAllShowcaseText) {
+      viewAllShowcaseText.textContent = isEN ? 'View All Projects ↗' : 'Lihat Semua Portofolio ↗';
     }
   }
 
@@ -561,10 +571,85 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.add('active');
 
       activeFilter = btn.getAttribute('data-filter');
-      isExpanded = false; // Reset pagination limit on tab filter change
       renderPortfolioGrid();
     });
   });
+
+  // --- Dedicated Showcase Directory Page (/showcase) Engine ---
+  const showcaseDirectoryGrid = document.getElementById('showcaseDirectoryGrid');
+  const sortSelect = document.getElementById('sortSelect');
+  const directoryFilterTabs = document.getElementById('directoryFilterTabs');
+  let directoryActiveFilter = 'all';
+  let directorySortMode = 'default';
+
+  function renderShowcaseDirectoryGrid() {
+    if (!showcaseDirectoryGrid) return;
+    showcaseDirectoryGrid.innerHTML = '';
+
+    const isEN = currentLang === 'EN';
+
+    // Clone data for sorting
+    let items = [...portfolioDataList];
+
+    // Apply Sorting Mode
+    if (directorySortMode === 'newest') {
+      items.reverse();
+    } else if (directorySortMode === 'oldest') {
+      // Keep original order or reverse
+    } else if (directorySortMode === 'title') {
+      items.sort((a, b) => a.title.localeCompare(b.title));
+    }
+
+    // Apply Category Filter
+    const matchingItems = items.filter(item => {
+      const cat = item.categoryFilter || 'all';
+      return directoryActiveFilter === 'all' || directoryActiveFilter === cat;
+    });
+
+    matchingItems.forEach((item) => {
+      const filterCategory = item.categoryFilter || 'all';
+      const categoryLabel = isEN ? (item.categoryEN || item.categoryID) : item.categoryID;
+      const thumbImg = (item.images && item.images.length > 0) ? item.images[0] : 'assets/images/hero_banner.jpg';
+
+      const itemCard = document.createElement('div');
+      itemCard.className = 'portfolio-item';
+      itemCard.setAttribute('data-category', filterCategory);
+      itemCard.style.display = 'block';
+
+      itemCard.innerHTML = `
+        <img src="${thumbImg}" alt="${item.title}" class="portfolio-img" loading="lazy" />
+        <div class="portfolio-info">
+          <span class="portfolio-category">${categoryLabel}</span>
+          <h4 class="portfolio-title">${item.title}</h4>
+        </div>
+      `;
+
+      itemCard.addEventListener('click', () => {
+        openShowcaseModal(item);
+      });
+
+      showcaseDirectoryGrid.appendChild(itemCard);
+    });
+  }
+
+  if (directoryFilterTabs) {
+    directoryFilterTabs.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        directoryFilterTabs.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        directoryActiveFilter = btn.getAttribute('data-filter');
+        renderShowcaseDirectoryGrid();
+      });
+    });
+  }
+
+  if (sortSelect) {
+    sortSelect.addEventListener('change', (e) => {
+      directorySortMode = e.target.value;
+      renderShowcaseDirectoryGrid();
+    });
+  }
 
   initPortfolioData();
 

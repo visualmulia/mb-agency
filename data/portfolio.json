@@ -1,7 +1,6 @@
 {
   "items": [
     {
-      "order": 1,
       "id": "brand-4",
       "title": "Tide Detergent",
       "categoryFilter": "smm",
@@ -27,7 +26,109 @@
       "metricLbl2EN": "Media Content"
     },
     {
-      "order": 2,
+      "id": "brand-1",
+      "title": "Kopi Kenangan - Desain Konten Sosial Media",
+      "categoryFilter": "smm",
+      "categoryID": "Desain Konten Sosial Media",
+      "categoryEN": "Social Media Content Design",
+      "year": "2026",
+      "images": [
+        "assets/images/chatgpt-image-jul-29-2026-12_33_29-am.png",
+        "assets/images/chatgpt-image-jul-28-2026-08_02_30-pm.png",
+        "assets/images/chatgpt-image-jul-28-2026-08_02_01-pm.png",
+        "assets/images/chatgpt-image-jul-28-2026-08_02_16-pm.png",
+        "assets/images/chatgpt-image-jul-28-2026-08_02_23-pm.png",
+        "assets/images/chatgpt-image-jul-28-2026-08_01_40-pm.png"
+      ],
+      "descID": "Kopi Kenangan — brand kopi nasional. Desain social media campaign untuk kebutuhan promosi dan brand engagement, terdiri dari 8 Single Post dan 2 Instagram Story (Total 10 design assets).",
+      "descEN": "Kopi Kenangan — national coffee brand. Social media campaign design for promotional and brand engagement needs, including 8 Single Posts and 2 Instagram Stories (Total 10 design assets).",
+      "metricVal1": "10",
+      "metricLbl1ID": "Aset Desain",
+      "metricLbl1EN": "Design Assets",
+      "metricVal2": "Social",
+      "metricLbl2ID": "Konten Sosmed",
+      "metricLbl2EN": "Media Content"
+    },
+    {
+      "id": "brand-2",
+      "title": "Reese Chocolate - Brand Campaign Assets",
+      "categoryFilter": "brand",
+      "categoryID": "Brand Assets & Identity",
+      "categoryEN": "Brand Assets & Identity",
+      "year": "2026",
+      "images": [
+        "assets/images/chatgpt-image-jul-29-2026-12_21_02-am.png",
+        "assets/images/chatgpt-image-jul-28-2026-10_36_14-pm-1-.png",
+        "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-2-.png",
+        "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-3-.png",
+        "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-4-.png",
+        "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-5-.png",
+        "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-6-.png",
+        "assets/images/chatgpt-image-jul-28-2026-10_36_18-pm-7-.png"
+      ],
+      "descID": "Social Campaign untuk Reese’s yang menghadirkan visual bold, playful, dan crave-worthy melalui image assets, social media carousel, dan hero visual berbasis karakter ikonik chocolate-peanut butter Reese’s.",
+      "descEN": "A bold and crave-worthy Social Campaign for Reese’s, featuring custom image assets, social media carousel visuals, and hero imagery inspired by the brand’s iconic chocolate-and-peanut-butter character.",
+      "metricVal1": "45",
+      "metricLbl1ID": "Design Assets",
+      "metricLbl1EN": "Design Assets",
+      "metricVal2": "Brand",
+      "metricLbl2ID": "Kampanye Media Sosial",
+      "metricLbl2EN": "Social Campaign"
+    },
+    {
+      "id": "smm-1",
+      "title": "Reese Chocolate - Social Media Content",
+      "categoryFilter": "smm",
+      "categoryID": "Social Media Management",
+      "categoryEN": "Social Media Management",
+      "year": "2026",
+      "images": [
+        "assets/images/hero-image.jpg",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_22-pm-1-.png",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_22-pm-2-.png",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_22-pm-3-.png",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-4-.png",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-5-.png",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-6-.png",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-7-.png",
+        "assets/images/chatgpt-image-jul-28-2026-11_44_28-pm-9-.png"
+      ],
+      "descID": "Carousel visual Instagram untuk Reese’s Chocolate dengan konsep dessert hacks yang playful dan save-worthy. MB Agency menciptakan visual asset system berbasis AI + Human Direction yang premium, engaging, dan scroll-stopping.",
+      "descEN": "Instagram carousel visuals for Reese’s Chocolate with a playful, save-worthy dessert hacks concept. MB Agency crafted a premium AI + Human Direction visual asset system designed to engage and stop the scroll.",
+      "metricVal1": "21",
+      "metricLbl1ID": "Feed & Carousel",
+      "metricLbl1EN": "Feed & Carousel",
+      "metricVal2": "Social",
+      "metricLbl2ID": "Media Content",
+      "metricLbl2EN": "Media Content"
+    },
+    {
+      "id": "poster-1",
+      "title": "TheRover - Social Media Campaign",
+      "categoryFilter": "poster",
+      "categoryID": "Digital Image & Poster",
+      "categoryEN": "Digital Image & Poster",
+      "year": "2026",
+      "images": [
+        "assets/images/chatgpt-image-jul-29-2026-02_13_37-am.png",
+        "assets/images/chatgpt-image-jul-29-2026-02_00_52-am-1-.png",
+        "assets/images/chatgpt-image-jul-29-2026-02_00_53-am-2-.png",
+        "assets/images/chatgpt-image-jul-29-2026-02_00_53-am-3-.png",
+        "assets/images/chatgpt-image-jul-29-2026-02_00_54-am-4-.png",
+        "assets/images/chatgpt-image-jul-29-2026-02_00_55-am-5-.png",
+        "assets/images/chatgpt-image-jul-29-2026-02_00_55-am-6-.png",
+        "assets/images/chatgpt-image-jul-29-2026-02_00_55-am-7-.png"
+      ],
+      "descID": "MB Agency berkolaborasi dengan The Rover untuk menciptakan konten visual berkualitas tinggi yang tidak hanya menampilkan keindahan properti, tetapi juga membangun kepercayaan yang lebih kuat, meningkatkan perceived value, dan mendukung kehadiran brand yang lebih profesional di pasar.",
+      "descEN": "MB Agency partnered with The Rover to create high-quality visual content that not only showcases the beauty of the property, but also builds stronger trust, elevates perceived value, and supports a more professional market presence.",
+      "metricVal1": "10",
+      "metricLbl1ID": "Image Assets",
+      "metricLbl1EN": "Image Assets",
+      "metricVal2": "Key Visual",
+      "metricLbl2ID": "User Trust",
+      "metricLbl2EN": "User Trust"
+    },
+    {
       "id": "byd-1",
       "title": "BYD Kota — Campaign BYD M6 DM",
       "categoryFilter": "smm",
@@ -51,7 +152,6 @@
       "metricLbl2EN": "Starting Price"
     },
     {
-      "order": 3,
       "id": "web-1",
       "title": "The Rover Kerobokan — Landing Page",
       "categoryFilter": "web",
@@ -69,93 +169,6 @@
       "metricVal2": "100%",
       "metricLbl2ID": "Mobile Responsive",
       "metricLbl2EN": "Mobile Responsive"
-    },
-    {
-      "order": 4,
-      "id": "brand-1",
-      "title": "Wanderlust.id — Brand & Social",
-      "categoryFilter": "brand",
-      "categoryID": "Desain Konten Sosial Media",
-      "categoryEN": "Social Media Content Design",
-      "year": "2026",
-      "images": [
-        "assets/images/brand_kit_showcase.jpg",
-        "assets/images/brand_identity.jpg",
-        "assets/images/hero_banner.jpg"
-      ],
-      "descID": "Wanderlust.id — platform tour dan travel. Desain untuk kebutuhan Social Media termasuk 6 Single Post, 1 Carousel, dan 5 Story (Total 16 design).",
-      "descEN": "Wanderlust.id — tour & travel platform. Complete Social Media design kit including 6 Single Posts, 1 Carousel, and 5 Stories (Total 16 design assets).",
-      "metricVal1": "16",
-      "metricLbl1ID": "Aset Desain",
-      "metricLbl1EN": "Design Assets",
-      "metricVal2": "Social",
-      "metricLbl2ID": "Konten Sosmed",
-      "metricLbl2EN": "Media Content"
-    },
-    {
-      "order": 5,
-      "id": "smm-1",
-      "title": "Kopi Masbroo — Content Engine",
-      "categoryFilter": "smm",
-      "categoryID": "Social Media Management",
-      "categoryEN": "Social Media Management",
-      "year": "2026",
-      "images": [
-        "assets/images/smm_showcase.jpg",
-        "assets/images/social_media_feed.jpg",
-        "assets/images/hero_banner.jpg"
-      ],
-      "descID": "Pengembangan visual feed Instagram & TikTok Ads untuk Kopi Masbroo. Meningkatkan engagement hingga 3.2x dengan strategi konten AI + Human Direction.",
-      "descEN": "Instagram feed & TikTok Ads visual development for Kopi Masbroo. Boosted engagement by 3.2x with AI + Human Direction content strategy.",
-      "metricVal1": "24",
-      "metricLbl1ID": "Feed & Carousel",
-      "metricLbl1EN": "Feed & Carousel",
-      "metricVal2": "3.2x",
-      "metricLbl2ID": "Pertumbuhan Engagement",
-      "metricLbl2EN": "Engagement Growth"
-    },
-    {
-      "order": 6,
-      "id": "poster-1",
-      "title": "TechVision 2026 — Key Visual Poster",
-      "categoryFilter": "poster",
-      "categoryID": "Digital Image & Poster",
-      "categoryEN": "Digital Image & Poster",
-      "year": "2026",
-      "images": [
-        "assets/images/poster_kv.jpg",
-        "assets/images/poster_ad_creative.jpg",
-        "assets/images/hero_banner.jpg"
-      ],
-      "descID": "Desain Key Visual (KV) utama & poster peluncuran event teknologi nasional. Termasuk banner cetak high-res & set iklan Meta Ads.",
-      "descEN": "Master Key Visual (KV) & promotional poster design for national tech event. Includes high-res print banner & Meta Ads campaign set.",
-      "metricVal1": "5",
-      "metricLbl1ID": "Varian Spanduk",
-      "metricLbl1EN": "Banner Variants",
-      "metricVal2": "Key Visual",
-      "metricLbl2ID": "Kreatif Utama",
-      "metricLbl2EN": "Master Creative"
-    },
-    {
-      "order": 7,
-      "id": "brand-2",
-      "title": "Aura Skincare — Brand Guidelines",
-      "categoryFilter": "brand",
-      "categoryID": "Brand Assets & Identity",
-      "categoryEN": "Brand Assets & Identity",
-      "year": "2026",
-      "images": [
-        "assets/images/brand_identity.jpg",
-        "assets/images/brand_kit_showcase.jpg"
-      ],
-      "descID": "Identitas visual luxury skincare meliputi logo vektor, skema warna palet, tipografi khusus, dan kemasan produk.",
-      "descEN": "Luxury skincare visual identity featuring vector logo, color palette swatches, custom typography, and product packaging.",
-      "metricVal1": "100%",
-      "metricLbl1ID": "Presisi Vektor",
-      "metricLbl1EN": "Vector Precision",
-      "metricVal2": "Brand",
-      "metricLbl2ID": "Panduan Identitas",
-      "metricLbl2EN": "Identity Guidelines"
     }
   ]
 }

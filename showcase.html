@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Direktori Karya & Portofolio — MB Agency</title>
+  <meta name="description" content="Eksplorasi seluruh karya portofolio MB Agency: Social Media Management, Brand Identity, Key Visual Poster, dan Web Development." />
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Showcase Directory Header & Controls */
+    .directory-hero {
+      padding: 8rem 0 3rem;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 27, 75, 0.9)), url('assets/images/hero_banner.jpg') center/cover no-repeat;
+      color: #ffffff;
+      text-align: center;
+    }
+    .directory-hero h1 {
+      font-size: 2.75rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .directory-hero p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      max-width: 680px;
+      margin: 0 auto 2rem;
+    }
+    .directory-nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .back-home-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--accent-purple);
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+    }
+    .back-home-btn:hover {
+      color: #6d28d9;
+    }
+    .directory-controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+      background: var(--bg-surface);
+      padding: 1.25rem 1.75rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-light);
+    }
+    .sort-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .sort-label {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-heading);
+    }
+    .sort-select {
+      padding: 0.55rem 1.25rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1.5px solid var(--border-light);
+      background-color: var(--bg-main);
+      color: var(--text-body);
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.2s ease;
+    }
+    .sort-select:focus {
+      border-color: var(--accent-purple);
+    }
+    .directory-grid-wrap {
+      padding: 3rem 0 6rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="/" class="logo">
+        <img src="assets/images/logo.png" alt="MB Agency Logo" class="logo-img" />
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav">
+        <ul class="nav-list" id="navMenu">
+          <li class="nav-item"><a href="/#about" class="nav-link" id="nav-about">Tentang Kami</a></li>
+          <li class="nav-item"><a href="/#services" class="nav-link" id="nav-services">Layanan</a></li>
+          <li class="nav-item"><a href="/showcase" class="nav-link active" id="nav-showcase">Portofolio</a></li>
+          <li class="nav-item"><a href="/#pricing" class="nav-link" id="nav-pricing">Harga & Kalkulator</a></li>
+        </ul>
+      </nav>
+
+      <!-- Language Switcher & Action -->
+      <div class="header-actions">
+        <div class="lang-switcher">
+          <button class="lang-btn active" id="langID" data-lang="ID">ID</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" id="langEN" data-lang="EN">EN</button>
+        </div>
+        <a href="/#pricing" class="btn btn-primary nav-cta" id="navCta">Kalkulator Biaya</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Showcase Directory Hero -->
+  <section class="directory-hero">
+    <div class="container">
+      <h1 id="dirHeroTitle">Direktori Karya & Portofolio MB Agency</h1>
+      <p id="dirHeroDesc">Eksplorasi seluruh karya desain visual, kampanye sosial media, identitas brand, dan pengembangan web yang telah kami kerjakan.</p>
+    </div>
+  </section>
+
+  <!-- Main Directory Content -->
+  <main class="directory-grid-wrap">
+    <div class="container">
+      <div class="directory-nav-bar">
+        <a href="/" class="back-home-btn" id="backHomeLink">← Kembali ke Beranda Utama</a>
+      </div>
+
+      <!-- Controls: Filter Tabs + Sort Dropdown -->
+      <div class="directory-controls">
+        <div class="filter-tabs" id="directoryFilterTabs">
+          <button class="filter-btn active" data-filter="all" id="tabAll">Semua Karya</button>
+          <button class="filter-btn" data-filter="web" id="tabWeb">Web & Landing Page</button>
+          <button class="filter-btn" data-filter="brand" id="tabBrand">Brand Assets</button>
+          <button class="filter-btn" data-filter="poster" id="tabPoster">Poster & KV</button>
+          <button class="filter-btn" data-filter="smm" id="tabSmm">Social Media SMM</button>
+        </div>
+
+        <div class="sort-wrap">
+          <label for="sortSelect" class="sort-label" id="sortLabel">Urutkan:</label>
+          <select id="sortSelect" class="sort-select">
+            <option value="default" id="optDefault">Urutan Kustom CMS</option>
+            <option value="newest" id="optNewest">Terbaru → Terlama</option>
+            <option value="oldest" id="optOldest">Terlama → Terbaru</option>
+            <option value="title" id="optTitle">Judul (A - Z)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Full Portfolio Grid Container -->
+      <div class="portfolio-grid" id="showcaseDirectoryGrid">
+        <!-- Dynamically rendered via script.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Showcase Detail Modal -->
+  <div class="showcase-modal" id="showcaseModal">
+    <div class="showcase-modal-overlay" id="showcaseOverlay"></div>
+    <div class="showcase-modal-box">
+      <button class="showcase-close" id="showcaseClose" aria-label="Close Modal">✕</button>
+
+      <div class="showcase-modal-grid">
+        <!-- Left: Image Slider -->
+        <div class="showcase-img-container" id="showcaseImgWrap">
+          <button class="carousel-nav-btn prev-btn" id="scPrevBtn" aria-label="Previous Image">‹</button>
+          <img src="" alt="Showcase Preview" id="scMainImg" class="showcase-main-img" />
+          <button class="carousel-nav-btn next-btn" id="scNextBtn" aria-label="Next Image">›</button>
+          <div class="carousel-counter" id="scCounter">1 / 1</div>
+        </div>
+
+        <!-- Right: Project Meta Details -->
+        <div class="showcase-details">
+          <span class="showcase-tag" id="scCategoryTag">CATEGORY</span>
+          <h3 class="showcase-modal-title" id="scTitle">Project Title</h3>
+          
+          <div class="showcase-description" id="scDescription">
+            Description content...
+          </div>
+
+          <div class="showcase-metrics-grid">
+            <div class="showcase-metric-card">
+              <span class="metric-value" id="scMetric1Val">0</span>
+              <span class="metric-label" id="scMetric1Lbl">Metric 1</span>
+            </div>
+            <div class="showcase-metric-card">
+              <span class="metric-value" id="scMetric2Val">0</span>
+              <span class="metric-label" id="scMetric2Lbl">Metric 2</span>
+            </div>
+          </div>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary showcase-wa-btn" id="scWaBtn">
+            <span id="scWaText">Diskusi Proyek Serupa via WA</span> 💬
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="/" class="logo">
+          <img src="assets/images/logo_white.png" alt="MB Agency Logo" class="logo-img" />
+        </a>
+        <p id="footer-tagline">Masbroo Agency — Mitra Strategis Visual & Konten Digital Anda. Bagian dari Masbroo Studio.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4 id="footer-nav-title">Navigasi</h4>
+        <ul>
+          <li><a href="/#about">Tentang Kami</a></li>
+          <li><a href="/#services">Layanan</a></li>
+          <li><a href="/showcase">Portofolio</a></li>
+          <li><a href="/#pricing">Kalkulator Biaya</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 id="footer-contact-title">Hubungi Kami</h4>
+        <p>WhatsApp: <a href="https://wa.me/6281289653355" target="_blank" rel="noopener noreferrer" style="color: #cbd5e1; font-weight: 600;">+62 812-8965-3355</a></p>
+        <p>Email: <a href="mailto:hello@mbagency.web.id" style="color: #cbd5e1;">hello@mbagency.web.id</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 MB Agency (Masbroo Agency). All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>

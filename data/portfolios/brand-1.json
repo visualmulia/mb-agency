@@ -1,22 +1,24 @@
 {
-  "order": 4,
-  "id": "brand-1",
-  "title": "Wanderlust.id — Brand & Social",
-  "categoryFilter": "brand",
-  "categoryID": "Desain Konten Sosial Media",
-  "categoryEN": "Social Media Content Design",
-  "year": "2026",
-  "images": [
-    "assets/images/brand_kit_showcase.jpg",
-    "assets/images/brand_identity.jpg",
-    "assets/images/hero_banner.jpg"
-  ],
-  "descID": "Wanderlust.id — platform tour dan travel. Desain untuk kebutuhan Social Media termasuk 6 Single Post, 1 Carousel, dan 5 Story (Total 16 design).",
-  "descEN": "Wanderlust.id — tour & travel platform. Complete Social Media design kit including 6 Single Posts, 1 Carousel, and 5 Stories (Total 16 design assets).",
-  "metricVal1": "16",
-  "metricLbl1ID": "Aset Desain",
-  "metricLbl1EN": "Design Assets",
+  "metricVal1": "10",
   "metricVal2": "Social",
+  "metricLbl1ID": "Aset Desain",
   "metricLbl2ID": "Konten Sosmed",
-  "metricLbl2EN": "Media Content"
+  "categoryEN": "Social Media Content Design",
+  "descID": "Kopi Kenangan — brand kopi nasional. Desain social media campaign untuk kebutuhan promosi dan brand engagement, terdiri dari 8 Single Post dan 2 Instagram Story (Total 10 design assets).",
+  "metricLbl1EN": "Design Assets",
+  "metricLbl2EN": "Media Content",
+  "categoryFilter": "smm",
+  "title": "Kopi Kenangan - Desain Konten Sosial Media",
+  "images": [
+    "assets/images/chatgpt-image-jul-29-2026-12_33_29-am.png",
+    "assets/images/chatgpt-image-jul-28-2026-08_02_30-pm.png",
+    "assets/images/chatgpt-image-jul-28-2026-08_02_01-pm.png",
+    "assets/images/chatgpt-image-jul-28-2026-08_02_16-pm.png",
+    "assets/images/chatgpt-image-jul-28-2026-08_02_23-pm.png",
+    "assets/images/chatgpt-image-jul-28-2026-08_01_40-pm.png"
+  ],
+  "categoryID": "Desain Konten Sosial Media",
+  "descEN": "Kopi Kenangan — national coffee brand. Social media campaign design for promotional and brand engagement needs, including 8 Single Posts and 2 Instagram Stories (Total 10 design assets).",
+  "id": "brand-1",
+  "year": "2026"
 }
