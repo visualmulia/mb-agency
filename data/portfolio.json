@@ -220,6 +220,31 @@
       "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
       "id": "web-1",
       "year": "2026"
+    },
+    {
+      "metricVal1": "10",
+      "metricVal2": "Social",
+      "metricLbl1ID": "Aset Gambar",
+      "metricLbl2ID": "Konten Media",
+      "categoryEN": "Brand Campaign Social Media",
+      "descID": "MB Agency berkolaborasi dengan Panerasa Bali untuk membuat konten media sosial bertema “Made To Share”. Konten dirancang dengan visual warm, clean, dan appetizing untuk menonjolkan menu, ambience cafe, serta momen makan bersama.",
+      "metricLbl1EN": "Image Assets",
+      "metricLbl2EN": "Media Content",
+      "categoryFilter": "smm",
+      "title": "Panerasa Bali",
+      "images": [
+        "assets/images/chatgpt-image-jul-29-2026-08_24_08-pm-1-.png",
+        "assets/images/1p.png",
+        "assets/images/3p.png",
+        "assets/images/4p.png",
+        "assets/images/5p.png",
+        "assets/images/6p.png",
+        "assets/images/chatgpt-image-jul-29-2026-08_11_03-pm-1-.png"
+      ],
+      "categoryID": "Kampanye Merek Sosial Media",
+      "descEN": "MB Agency collaborated with Panerasa Bali to create “Made To Share” social media content. The visuals were designed to feel warm, clean, and appetizing while highlighting the menu, cafe ambience, and shared dining moments.",
+      "id": "brand-7",
+      "year": "2026"
     }
   ]
 }
