@@ -29,6 +29,32 @@
       "metricVal1": "10",
       "metricVal2": "Social",
       "metricLbl1ID": "Aset Desain",
+      "metricLbl2ID": "Konten Media Sosial",
+      "categoryEN": "Social Media Brand Campaign",
+      "descID": "Tide — brand detergen asal Amerika. MB Agency mengembangkan desain social media campaign berbentuk Instagram carousel untuk memperkenalkan Tide PODS sebagai solusi laundry praktis dengan pesan “One POD. Three Jobs. Zero Guesswork.” Campaign ini berfokus pada kemudahan penggunaan, manfaat 3-in-1, stain fighting, brightening, dan rutinitas mencuci yang lebih simpel.",
+      "metricLbl1EN": "Design Assets",
+      "metricLbl2EN": "Social Media Content",
+      "categoryFilter": "brand",
+      "title": "Tide Detergent",
+      "images": [
+        "assets/images/chatgpt-image-jul-29-2026-11_32_46-am-1-.png",
+        "assets/images/chatgpt-image-jul-29-2026-10_47_50-am-1-.png",
+        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-2-.png",
+        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-3-.png",
+        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-4-.png",
+        "assets/images/chatgpt-image-jul-29-2026-10_47_52-am-6-.png",
+        "assets/images/chatgpt-image-jul-29-2026-10_47_52-am-7-.png",
+        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-5-.png"
+      ],
+      "categoryID": "Kampanye Merek Social Media",
+      "descEN": "Tide — American laundry detergent brand. MB Agency developed an Instagram carousel social media campaign to introduce Tide PODS as a practical laundry solution with the message “One POD. Three Jobs. Zero Guesswork.” The campaign focused on ease of use, 3-in-1 benefits, stain fighting, brightening, and a simpler laundry routine.",
+      "id": "brand-5",
+      "year": "2026"
+    },
+    {
+      "metricVal1": "10",
+      "metricVal2": "Social",
+      "metricLbl1ID": "Aset Desain",
       "metricLbl2ID": "Konten Sosmed",
       "categoryEN": "Social Media Content Design",
       "descID": "Kopi Kenangan — brand kopi nasional. Desain social media campaign untuk kebutuhan promosi dan brand engagement, terdiri dari 8 Single Post dan 2 Instagram Story (Total 10 design assets).",
@@ -168,32 +194,6 @@
       "categoryID": "Web Dev & Landing Page",
       "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
       "id": "web-1",
-      "year": "2026"
-    },
-    {
-      "metricVal1": "10",
-      "metricVal2": "Social",
-      "metricLbl1ID": "Aset Desain",
-      "metricLbl2ID": "Konten Media Sosial",
-      "categoryEN": "Social Media Brand Campaign",
-      "descID": "Tide — brand detergen asal Amerika. MB Agency mengembangkan desain social media campaign berbentuk Instagram carousel untuk memperkenalkan Tide PODS sebagai solusi laundry praktis dengan pesan “One POD. Three Jobs. Zero Guesswork.” Campaign ini berfokus pada kemudahan penggunaan, manfaat 3-in-1, stain fighting, brightening, dan rutinitas mencuci yang lebih simpel.",
-      "metricLbl1EN": "Design Assets",
-      "metricLbl2EN": "Social Media Content",
-      "categoryFilter": "brand",
-      "title": "Tide Detergent",
-      "images": [
-        "assets/images/chatgpt-image-jul-29-2026-11_32_46-am-1-.png",
-        "assets/images/chatgpt-image-jul-29-2026-10_47_50-am-1-.png",
-        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-2-.png",
-        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-3-.png",
-        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-4-.png",
-        "assets/images/chatgpt-image-jul-29-2026-10_47_52-am-6-.png",
-        "assets/images/chatgpt-image-jul-29-2026-10_47_52-am-7-.png",
-        "assets/images/chatgpt-image-jul-29-2026-10_47_51-am-5-.png"
-      ],
-      "categoryID": "Kampanye Merek Social Media",
-      "descEN": "Tide — American laundry detergent brand. MB Agency developed an Instagram carousel social media campaign to introduce Tide PODS as a practical laundry solution with the message “One POD. Three Jobs. Zero Guesswork.” The campaign focused on ease of use, 3-in-1 benefits, stain fighting, brightening, and a simpler laundry routine.",
-      "id": "brand-5",
       "year": "2026"
     }
   ]
