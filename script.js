@@ -461,7 +461,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function initPortfolioData() {
     try {
-      // 1. Fetch bundled portfolio JSON
       const res = await fetch(`data/portfolio.json?v=${Date.now()}`);
       if (res.ok) {
         const json = await res.json();
@@ -470,45 +469,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (Array.isArray(json) && json.length > 0) {
           portfolioDataList = json;
         }
-      }
-
-      // 2. Concurrently scan data/portfolios/*.json to pick up any new Decap CMS entries
-      const prefixes = ['web-', 'byd-', 'brand-', 'smm-', 'poster-'];
-      const fetchedMap = new Map();
-
-      // Pre-fill map with bundled items
-      portfolioDataList.forEach(item => {
-        if (item && item.id) fetchedMap.set(item.id, item);
-      });
-
-      const fetchPromises = [];
-      for (const prefix of prefixes) {
-        for (let i = 1; i <= 20; i++) {
-          const id = `${prefix}${i}`;
-          fetchPromises.push(
-            fetch(`data/portfolios/${id}.json?v=${Date.now()}`)
-              .then(r => r.ok ? r.json() : null)
-              .then(itemData => {
-                if (itemData && itemData.id) {
-                  fetchedMap.set(itemData.id, itemData);
-                }
-              })
-              .catch(() => null)
-          );
-        }
-      }
-
-      await Promise.all(fetchPromises);
-
-      if (fetchedMap.size > 0) {
-        portfolioDataList = Array.from(fetchedMap.values());
-      }
-    } catch (err) {
-      console.warn('CMS JSON load fallback to embedded portfolio data:', err);
-    }
-
-      if (fetchedMap.size > 0) {
-        portfolioDataList = Array.from(fetchedMap.values());
       }
     } catch (err) {
       console.warn('CMS JSON load fallback to embedded portfolio data:', err);
