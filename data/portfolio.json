@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "order": 1,
       "id": "brand-4",
       "title": "Tide Detergent",
       "categoryFilter": "smm",
@@ -26,25 +27,7 @@
       "metricLbl2EN": "Media Content"
     },
     {
-      "id": "web-1",
-      "title": "The Rover Kerobokan — Landing Page",
-      "categoryFilter": "web",
-      "categoryID": "Web Dev & Landing Page",
-      "categoryEN": "Web Dev & Landing Page",
-      "year": "2026",
-      "images": [
-        "assets/images/therover_showcase.jpg"
-      ],
-      "descID": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Website Landing Page interaktif untuk 24 exclusive Mezzanine dan Studio apartment suites di Bali. Dilengkapi sistem reservasi via WhatsApp, filter kamar, galeri foto, & lokasi Google Maps.",
-      "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
-      "metricVal1": "24",
-      "metricLbl1ID": "Apartment Suites",
-      "metricLbl1EN": "Apartment Suites",
-      "metricVal2": "100%",
-      "metricLbl2ID": "Mobile Responsive",
-      "metricLbl2EN": "Mobile Responsive"
-    },
-    {
+      "order": 2,
       "id": "byd-1",
       "title": "BYD Kota — Campaign BYD M6 DM",
       "categoryFilter": "smm",
@@ -68,6 +51,27 @@
       "metricLbl2EN": "Starting Price"
     },
     {
+      "order": 3,
+      "id": "web-1",
+      "title": "The Rover Kerobokan — Landing Page",
+      "categoryFilter": "web",
+      "categoryID": "Web Dev & Landing Page",
+      "categoryEN": "Web Dev & Landing Page",
+      "year": "2026",
+      "images": [
+        "assets/images/therover_showcase.jpg"
+      ],
+      "descID": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Website Landing Page interaktif untuk 24 exclusive Mezzanine dan Studio apartment suites di Bali. Dilengkapi sistem reservasi via WhatsApp, filter kamar, galeri foto, & lokasi Google Maps.",
+      "descEN": "The Rover Kerobokan (<a href=\"https://therover.web.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-purple); font-weight: 700; text-decoration: underline;\">therover.web.id 🔗</a>) — Interactive Landing Page website for 24 exclusive Mezzanine and Studio apartment suites in Bali. Built with direct WhatsApp booking, room filter, photo gallery, and Google Maps integration.",
+      "metricVal1": "24",
+      "metricLbl1ID": "Apartment Suites",
+      "metricLbl1EN": "Apartment Suites",
+      "metricVal2": "100%",
+      "metricLbl2ID": "Mobile Responsive",
+      "metricLbl2EN": "Mobile Responsive"
+    },
+    {
+      "order": 4,
       "id": "brand-1",
       "title": "Wanderlust.id — Brand & Social",
       "categoryFilter": "brand",
@@ -89,6 +93,7 @@
       "metricLbl2EN": "Media Content"
     },
     {
+      "order": 5,
       "id": "smm-1",
       "title": "Kopi Masbroo — Content Engine",
       "categoryFilter": "smm",
@@ -110,6 +115,7 @@
       "metricLbl2EN": "Engagement Growth"
     },
     {
+      "order": 6,
       "id": "poster-1",
       "title": "TechVision 2026 — Key Visual Poster",
       "categoryFilter": "poster",
@@ -131,6 +137,7 @@
       "metricLbl2EN": "Master Creative"
     },
     {
+      "order": 7,
       "id": "brand-2",
       "title": "Aura Skincare — Brand Guidelines",
       "categoryFilter": "brand",

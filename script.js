@@ -484,7 +484,22 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (err) {
       console.warn('CMS JSON load fallback to embedded portfolio data:', err);
     }
+
+    // Sort by order ascending (1, 2, 3...)
+    portfolioDataList.sort((a, b) => (parseInt(a.order) || 99) - (parseInt(b.order) || 99));
     renderPortfolioGrid();
+  }
+
+  let isExpanded = false;
+  const portfolioLoadMoreWrap = document.getElementById('portfolioLoadMoreWrap');
+  const loadMoreBtn = document.getElementById('loadMoreBtn');
+  const loadMoreText = document.getElementById('loadMoreText');
+
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      isExpanded = true;
+      renderPortfolioGrid();
+    });
   }
 
   function renderPortfolioGrid() {
@@ -493,7 +508,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const isEN = currentLang === 'EN';
 
-    portfolioDataList.forEach((item, idx) => {
+    // Sort by order
+    portfolioDataList.sort((a, b) => (parseInt(a.order) || 99) - (parseInt(b.order) || 99));
+
+    const matchingItems = portfolioDataList.filter(item => {
+      const cat = item.categoryFilter || 'all';
+      return activeFilter === 'all' || activeFilter === cat;
+    });
+
+    const INITIAL_LIMIT = 6;
+    const itemsToDisplay = isExpanded ? matchingItems : matchingItems.slice(0, INITIAL_LIMIT);
+
+    itemsToDisplay.forEach((item) => {
       const filterCategory = item.categoryFilter || 'all';
       const categoryLabel = isEN ? (item.categoryEN || item.categoryID) : item.categoryID;
       const thumbImg = (item.images && item.images.length > 0) ? item.images[0] : 'assets/images/hero_banner.jpg';
@@ -501,7 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const itemCard = document.createElement('div');
       itemCard.className = 'portfolio-item';
       itemCard.setAttribute('data-category', filterCategory);
-      itemCard.style.display = (activeFilter === 'all' || activeFilter === filterCategory) ? 'block' : 'none';
+      itemCard.style.display = 'block';
 
       itemCard.innerHTML = `
         <img src="${thumbImg}" alt="${item.title}" class="portfolio-img" loading="lazy" />
@@ -517,6 +543,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
       portfolioGrid.appendChild(itemCard);
     });
+
+    // Handle Load More Button Visibility
+    if (portfolioLoadMoreWrap && loadMoreText) {
+      if (matchingItems.length > INITIAL_LIMIT && !isExpanded) {
+        portfolioLoadMoreWrap.style.display = 'block';
+        loadMoreText.textContent = isEN ? 'Load More Projects ✨' : 'Tampilkan Lebih Banyak Portofolio ✨';
+      } else {
+        portfolioLoadMoreWrap.style.display = 'none';
+      }
+    }
   }
 
   filterBtns.forEach(btn => {
@@ -525,15 +561,8 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.add('active');
 
       activeFilter = btn.getAttribute('data-filter');
-      
-      document.querySelectorAll('.portfolio-item').forEach(item => {
-        const cat = item.getAttribute('data-category');
-        if (activeFilter === 'all' || activeFilter === cat) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
+      isExpanded = false; // Reset pagination limit on tab filter change
+      renderPortfolioGrid();
     });
   });
 

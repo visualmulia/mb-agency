@@ -1,27 +1,22 @@
 {
-  "metricVal1": "21",
-  "metricVal2": "Social",
-  "metricLbl1ID": "Feed & Carousel",
-  "metricLbl2ID": "Media Content",
-  "categoryEN": "Social Media Management",
-  "descID": "Carousel visual Instagram untuk Reese’s Chocolate dengan konsep dessert hacks yang playful dan save-worthy. MB Agency menciptakan visual asset system berbasis AI + Human Direction yang premium, engaging, dan scroll-stopping.",
-  "metricLbl1EN": "Feed & Carousel",
-  "metricLbl2EN": "Media Content",
-  "categoryFilter": "smm",
-  "title": "Reese Chocolate - Social Media Content",
-  "images": [
-    "assets/images/hero-image.jpg",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_22-pm-1-.png",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_22-pm-2-.png",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_22-pm-3-.png",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-4-.png",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-5-.png",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-6-.png",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_23-pm-7-.png",
-    "assets/images/chatgpt-image-jul-28-2026-11_44_28-pm-9-.png"
-  ],
-  "categoryID": "Social Media Management",
-  "descEN": "Instagram carousel visuals for Reese’s Chocolate with a playful, save-worthy dessert hacks concept. MB Agency crafted a premium AI + Human Direction visual asset system designed to engage and stop the scroll.",
+  "order": 5,
   "id": "smm-1",
-  "year": "2026"
+  "title": "Kopi Masbroo — Content Engine",
+  "categoryFilter": "smm",
+  "categoryID": "Social Media Management",
+  "categoryEN": "Social Media Management",
+  "year": "2026",
+  "images": [
+    "assets/images/smm_showcase.jpg",
+    "assets/images/social_media_feed.jpg",
+    "assets/images/hero_banner.jpg"
+  ],
+  "descID": "Pengembangan visual feed Instagram & TikTok Ads untuk Kopi Masbroo. Meningkatkan engagement hingga 3.2x dengan strategi konten AI + Human Direction.",
+  "descEN": "Instagram feed & TikTok Ads visual development for Kopi Masbroo. Boosted engagement by 3.2x with AI + Human Direction content strategy.",
+  "metricVal1": "24",
+  "metricLbl1ID": "Feed & Carousel",
+  "metricLbl1EN": "Feed & Carousel",
+  "metricVal2": "3.2x",
+  "metricLbl2ID": "Pertumbuhan Engagement",
+  "metricLbl2EN": "Engagement Growth"
 }

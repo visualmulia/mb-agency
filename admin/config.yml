@@ -16,9 +16,24 @@ collections:
     slug: "{{id}}"
     extension: "json"
     format: "json"
-    summary: "{{title}} ({{categoryID}})"
+    summary: "#{{order}} — {{title}} ({{categoryID}})"
+    sortable_fields: ['order', 'title', 'year']
+    view_filters:
+      - label: "Web Dev"
+        field: "categoryFilter"
+        pattern: "web"
+      - label: "Social Media"
+        field: "categoryFilter"
+        pattern: "smm"
+      - label: "Brand Identity"
+        field: "categoryFilter"
+        pattern: "brand"
+      - label: "Poster & Ads"
+        field: "categoryFilter"
+        pattern: "poster"
     fields:
-      - { label: "ID Proyek", name: "id", widget: "string" }
+      - { label: "Urutan Tampilan (1 = Paling Utama/Pertama)", name: "order", widget: "number", value_type: "int", default: 1 }
+      - { label: "ID Proyek (Unik, misal: brand-4, smm-3)", name: "id", widget: "string" }
       - { label: "Judul Proyek", name: "title", widget: "string" }
       - { label: "Kategori Filter", name: "categoryFilter", widget: "select", options: ["smm", "web", "brand", "poster"] }
       - { label: "Nama Kategori (Bahasa Indonesia)", name: "categoryID", widget: "string" }
