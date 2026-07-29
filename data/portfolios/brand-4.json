@@ -1,0 +1,25 @@
+{
+  "metricVal1": "10",
+  "metricVal2": "Social",
+  "metricLbl1ID": "Aset Desain",
+  "metricLbl2ID": "Konten Sosmed",
+  "categoryEN": "Social Media Brand Campaign",
+  "descID": "Tide — brand detergen asal Amerika. MB Agency mengembangkan desain social media campaign berbentuk Instagram carousel untuk memperkuat pesan “cold water clean”, dengan fokus pada edukasi manfaat mencuci menggunakan air dingin, pengangkatan noda harian, dan rutinitas laundry yang lebih praktis. Campaign ini dirancang dengan visual bold, clean, dan high-trust menggunakan identitas warna khas Tide.",
+  "metricLbl1EN": "Design Assets",
+  "metricLbl2EN": "Media Content",
+  "categoryFilter": "smm",
+  "title": "Tide Detergent",
+  "images": [
+    "assets/images/chatgpt-image-jul-29-2026-11_08_46-am-2-.png",
+    "assets/images/chatgpt-image-jul-29-2026-10_35_26-am-1-.png",
+    "assets/images/chatgpt-image-jul-29-2026-10_35_26-am-2-.png",
+    "assets/images/chatgpt-image-jul-29-2026-10_35_26-am-3-.png",
+    "assets/images/chatgpt-image-jul-29-2026-10_35_26-am-4-.png",
+    "assets/images/chatgpt-image-jul-29-2026-10_35_26-am-5-.png",
+    "assets/images/chatgpt-image-jul-29-2026-10_35_26-am-6-.png"
+  ],
+  "categoryID": "Kampanye Merek Sosial Media",
+  "descEN": "Tide — American laundry detergent brand. MB Agency developed an Instagram carousel social media campaign to strengthen the “cold water clean” message, focusing on the benefits of washing with cold water, everyday stain removal, and a simpler laundry routine. The campaign was designed with a bold, clean, and high-trust visual direction inspired by Tide’s iconic brand colors.",
+  "id": "brand-4",
+  "year": "2026"
+}
